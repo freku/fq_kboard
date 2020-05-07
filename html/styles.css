@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    user-select: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, -1px 0px 0 black, 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-flow: column;
+    position: absolute;
+    right: 0;
+    top: 200px;
+    /*width: 20%;*/
+    height: 38%;
+    /* background: black; */
+    /* border: 1px solid white; */
+}
+
+.element {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid black; */
+    font-size: 15px;
+}
+
+.player-name {
+
+}
+
+.gun-img {
+    width: 75px;
+    margin: 0 5px;
+}
+
+.vagos-c {
+    color: rgb(255, 251, 0);
+}
+.family-c {
+    color: #54df48;
+}
+.ballas-c {
+    color: rgb(188, 71, 218);
+}
+.triads-c {
+    color: hsl(0, 73%, 53%);
+}
+
+
+
+@media only screen and (max-height: 830px), screen and (max-width: 1200px) {
+    
+}
